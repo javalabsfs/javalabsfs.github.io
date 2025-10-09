@@ -39,13 +39,15 @@ Once you are done,
 2. `git commit -m` your changes with a meaningful commit message
 3. `git push` to the remote repository
 
-Refer back to [the previous page]({{ "/git/#basic-git-commands" | relative_url }}) for details on the commands.
+Refer back to the previous page - click the arrow on the left - for details on the commands.
 
 Double-check if your push was successful by opening your lab 0 on the GitHub website.
 
 The tutors will only be able to see what you push to the remote repository. They will never see changes you make on your computer unless you commit and push them.
 
 ---
+
+Done!
 
 Also, remember — Google is a programmer’s best friend! Learning how to effectively search for solutions is a key skill. If you have a question, chances are someone else has had the same issue. With proper searching, you'll often find the answer you need. :)
 

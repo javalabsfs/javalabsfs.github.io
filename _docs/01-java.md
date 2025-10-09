@@ -17,7 +17,7 @@ First, check if Java is already installed on your computer. Click on the name of
 ---
 
 <details>
-<summary>Windows</summary>
+<summary>► Windows</summary>
 
 <ol>
 <li>open the application <b>Command Prompt</b></li>
@@ -33,7 +33,7 @@ First, check if Java is already installed on your computer. Click on the name of
 ---
 
 <details>
-<summary>MacOS</summary>
+<summary>► MacOS</summary>
 <ol>
 <li>open the application <b>Terminal</b></li>
 <li>type or paste <code>java -version</code> and press enter</li>
@@ -48,7 +48,7 @@ First, check if Java is already installed on your computer. Click on the name of
 ---
 
 <details>
-<summary>Linux</summary>
+<summary>► Linux</summary>
 
 you know what you're doing :D
 <br>
@@ -62,12 +62,12 @@ you know what you're doing :D
 ---
 
 **Inspect the output**: if it looks anything like
-```
+```console
 openjdk version "24.0.1" 2025-04-15
 OpenJDK Runtime Environment (build 24.0.1+9-30)
 OpenJDK 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
 ```
-, Java is already installed on your computer. Skip the instructions below and move on to the next step, [installing Git & setting up GitHub](git.md).
+, Java is already installed on your computer. Skip the instructions below and move on to the next step, installing Git & setting up GitHub, by clicking the arrow on the right.
 
 
 If Java is not installed, download it from [here](https://www.java.com/en/download/) (all operating systems), open it, and follow the instructions. Then, if you are using Windows:
@@ -75,7 +75,7 @@ If Java is not installed, download it from [here](https://www.java.com/en/downlo
 ---
 
 <details>
-<summary>Windows</summary>
+<summary>► Windows</summary>
 
 Check if the <code>JAVA_HOME</code> variable is set. It allows other software to see your Java installation.
 <br>
@@ -107,4 +107,4 @@ Double-check if Java was installed successfully by running `java -version` as de
 
 ---
 
-Done. Next, [install Git & set up GitHub](git.md).
+Done. Next, install Git & set up GitHub - click the arrow on the right.

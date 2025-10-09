@@ -20,7 +20,7 @@ First, check if Git is already installed on your computer. Click on the name of 
 ---
 
 <details>
-<summary>Windows</summary>
+<summary>► Windows</summary>
 
 <ol>
 <li>open the application <b>Command Prompt</b></li>
@@ -32,7 +32,7 @@ First, check if Git is already installed on your computer. Click on the name of 
 ---
 
 <details>
-<summary>MacOS</summary>
+<summary>► MacOS</summary>
 
 <ol>
 <li>open the application <b>Terminal</b></li>
@@ -44,7 +44,7 @@ First, check if Git is already installed on your computer. Click on the name of 
 ---
 
 <details>
-<summary>Linux</summary>
+<summary>► Linux</summary>
 
 <ol>
 <li>open the application <b>terminal</b></li>
@@ -56,17 +56,17 @@ First, check if Git is already installed on your computer. Click on the name of 
 ---
 
 **Inspect the output**: if it looks anything like
-```
+```console
 git version 2.40.0
 ```
-, Git is already installed on your computer. Skip the instructions below and move on to the next step, [setting up GitHub]({{ "/#3-github/" | relative_url }}).
+, Git is already installed on your computer. Skip the instructions below and move on to the next step, [setting up GitHub](#3-github).
 
 If Git is not installed, follow these steps:
 
 ---
 
 <details>
-<summary>Windows</summary>
+<summary>► Windows</summary>
 
 install Git from <a href="https://gitforwindows.org/">here</a>, open it, and follow the instructions
 
@@ -75,7 +75,7 @@ install Git from <a href="https://gitforwindows.org/">here</a>, open it, and fol
 ---
 
 <details>
-<summary>MacOS</summary>
+<summary>► MacOS</summary>
 
 <ol>
 <li>open the application <b>Terminal</b></li>
@@ -92,7 +92,7 @@ install Git from <a href="https://gitforwindows.org/">here</a>, open it, and fol
 ---
 
 <details>
-<summary>Linux</summary>
+<summary>► Linux</summary>
 
 use your package manager's installation command, e.g. <code>sudo apt install git</code>
 
@@ -127,7 +127,7 @@ Before you can upload or push changes to any remote repositories (i.e. the repos
 
 Do this by opening the command line/terminal/console and entering (copying and pasting) the commands below, replacing "FirstName LastName" with your first and last name and "your@email.address" with the email address you used to sign up for GitHub. You only need to do this once.
 
-```
+```console
 git config --global user.name "FirstName LastName" 
 git config --global user.email "your@email.address"
 ```
@@ -139,7 +139,7 @@ To set up an SSH key, follow the instructions below.
 
 1. Generate the key by entering the command below in the terminal, replacing "your@email.address" with the email address associated with your GitHub account.
 
-```
+```console
 ssh-keygen -t rsa -b 4096 -C "your@email.address"
 ```
 
@@ -153,13 +153,13 @@ Copy this path, as you’ll need it later.
 
 2. You have to tell the computer that you want to use the SSH key you just generated. Do this by running the command below, which will start the ssh-agent.
 
-```
+```console
 eval $(ssh-agent -s)
 ```
 
 3. Next, add the SSH key you generated to the agent. Use the path you copied in step 1, like so:
  
-```
+```console
 ssh-add /aPath/.ssh/id_rsa
 ```
 
@@ -168,7 +168,7 @@ Make sure to use the correct path; otherwise, you’ll get a 'no such file' or d
 4. Copy (the public version of) the key so that you can use it on GitHub. You can do this by opening the file `id_rsa.pub` stored in the location shown in the command above.
 You can also run the command below to display the key.
 
-```
+```console
 cat /aPath/.ssh/id_rsa.pub
 ```
 
@@ -182,13 +182,13 @@ Copy the entire output — this is your public key.
 ### git clone
 Create a copy of a remote repository on your computer by using the command below, replacing "yourRepoLink" with the link to the repository you want to clone. Clone this very repository. Obtain its link by clicking the green button labelled "Code" in the upper right corner, clicking SSH and copying the link shown. To save the copy in a specific location on your computer, read on.
 
-```
+```console
 git clone yourRepoLink
 ```
 
 To save the copy in a specific location on your computer, navigate to it using `cd`, which stands for **change directory** (change folder). E.g. if your 'homework' folder is inside the 'Documents' folder, you can use this command to go into that folder:
    
-```
+```console
 cd Documents/homework
 ```
 
@@ -197,7 +197,7 @@ cd Documents/homework
 ### git add
 For most assignments, you are provided with starter code to complete and will simply need to clone, commit, and push. But sometimes, you will need to create a new file. You must explicitly tell Git about new files that it is to track. Do this by using the command below, replacing "yourFileName.file" with the name of your file.
 
-```
+```console
 git add yourFileName.file
 ```
 
@@ -206,7 +206,7 @@ git add yourFileName.file
 ### git commit
 You must 'save' any changes you made to your local repository by committing them, i.e. informing Git about the changes and that they are ready to be sent to the remote repository. Additionally, provide a commit message, i.e. concise and meaningful description of the changes you made, marked by `-m` and the description in quotation marks. Use the command below, replacing "yourFileName.file" and "update personal information" with your corresponding file name and commit message.
 
-```
+```console
 git commit yourFileName.file -m "update personal information"
 ```
 
@@ -215,7 +215,7 @@ Examples for commit messages: "populate required fields" or "add name and studen
 ### git push
 Now you are ready to push the changes you made, i.e. update the remote repository. Do this using the command below.  
 
-```
+```console
 git push
 ```
 
@@ -225,7 +225,7 @@ If you would like to dive deeper into Git and GitHub, we highly encourage you to
 
 ---
 
-Done. Next, [install VSCode]({{ "/vscode/" | relative_url }}).
+Done. Next, install VSCode - click the arrow on the right.
 
 [^1]: https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/, modified; 17/10/24
 
