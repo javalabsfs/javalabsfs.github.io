@@ -13,7 +13,7 @@ What you will need to do:
 
 1. install Java
 2. install Git & set up GitHub
-3. install VSCode
+3. install VSCode (optional)
 4. do lab tasks (**deadline: 17/10/2024, 12:00 PM CET**)
 
 Start by clicking the arrow on the right.
