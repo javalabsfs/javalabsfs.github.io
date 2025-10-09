@@ -11,7 +11,7 @@ This is a guide to setting up your computer for the course 'Data Structures and 
 
 What you will need to do:
 
-1. [install Java](java.md)
+1. [install Java](/java)
 2. [install Git & set up GitHub](git.md)
 3. [install VSCode](vscode.md)
 4. [do lab tasks](labTasks.md) (**deadline: 17/10/2024, 12:00 PM CET**)
