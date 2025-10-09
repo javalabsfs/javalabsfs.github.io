@@ -67,7 +67,7 @@ openjdk version "24.0.1" 2025-04-15
 OpenJDK Runtime Environment (build 24.0.1+9-30)
 OpenJDK 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
 ```
-, Java is already installed on your computer. Skip the instructions below and move on to the next step, installing Git & setting up GitHub, by clicking the arrow on the right.
+, Java is already installed on your computer. Skip the instructions below and move on to the next step, installing Git & setting up GitHub, by using the menu on the left or scrolling up and clicking on the arrow on the right.
 
 
 If Java is not installed, download it from [here](https://www.java.com/en/download/) (all operating systems), open it, and follow the instructions. Then, if you are using Windows:
@@ -88,7 +88,7 @@ Check if the <code>JAVA_HOME</code> variable is set. It allows other software to
 <img src="img/set_java_home_win.png" alt="set JAVA_HOME on Windows" width="60%" height="auto">
 <br>
 <li>if <code>JAVA_HOME</code> exists under 'system variables' and has a value similar to <code>C:\Program Files\Java\jdk-21</code>, it is already set. Go to the next step, <a href="{{ '/git/' | relative_url }}">installing Git</a>. Else:</li>
-<li>click the 'new' button under the 'system variables' section</li>
+<li>click on the 'new' button under the 'system variables' section</li>
 <li>set name to <code>JAVA_HOME</code></li>
 <li>set value to the location of your Java installation, which should look something like <code>C:\Program Files\Java\jdk-21</code>. If you do not know the location, find it using File Explorer</li>
 <br>
@@ -107,4 +107,4 @@ Double-check if Java was installed successfully by running `java -version` as de
 
 ---
 
-Done. Next, install Git & set up GitHub - click the arrow on the right.
+Done. Move on to the next step, installing Git & setting up GitHub, by using the menu on the left or scrolling up and clicking on the arrow on the right.

@@ -174,13 +174,13 @@ cat /aPath/.ssh/id_rsa.pub
 
 Copy the entire output — this is your public key.
 
-5. Open GitHub, click on your profile picture, then Settings. In the navigation menu (left side), go to "SSH and GPG keys". Click the green button in the top right corner labelled "New SSH key". Give the key a title (can be anything) and paste the key you just copied into the key field. Then click the button labelled "Add SSH key".
+5. Open GitHub, click on your profile picture, then Settings. In the navigation menu (left side), go to "SSH and GPG keys". Click on the green button in the top right corner labelled "New SSH key". Give the key a title (can be anything) and paste the key you just copied into the key field. Then click on the button labelled "Add SSH key".
 
 ---
 
 ## Basic Git commands
 ### git clone
-Create a copy of a remote repository on your computer by using the command below, replacing "yourRepoLink" with the link to the repository you want to clone. Clone this very repository. Obtain its link by clicking the green button labelled "Code" in the upper right corner, clicking SSH and copying the link shown. To save the copy in a specific location on your computer, read on.
+Create a copy of a remote repository on your computer by using the command below, replacing "yourRepoLink" with the link to the repository you want to clone. Clone this very repository. Obtain its link by clicking on the green button labelled "Code" in the upper right corner, clicking on 'SSH' and copying the link shown. To save the copy in a specific location on your computer, read on.
 
 ```console
 git clone yourRepoLink
@@ -225,7 +225,9 @@ If you would like to dive deeper into Git and GitHub, we highly encourage you to
 
 ---
 
-Done. Next, install VSCode - click the arrow on the right.
+Done. Move on to the next step, installing VSCode, by using the menu on the left or scrolling up and clicking on the arrow on the right.
+
+---
 
 [^1]: https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/, modified; 17/10/24
 

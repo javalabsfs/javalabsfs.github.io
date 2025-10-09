@@ -39,7 +39,7 @@ Once you are done,
 2. `git commit -m` your changes with a meaningful commit message
 3. `git push` to the remote repository
 
-Refer back to the previous page - click the arrow on the left - for details on the commands.
+Refer back to the previous page - use the menu on the left or scroll up and click on the arrow on the left - for details on the commands.
 
 Double-check if your push was successful by opening your lab 0 on the GitHub website.
 

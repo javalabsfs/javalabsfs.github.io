@@ -20,4 +20,4 @@ Add Java support to VSCode by installing the Java extensions from [here](vscode:
 
 ---
 
-Done. Next, do the lab tasks - click the arrow on the right.
+Done. Move on to the final step, doing the lab tasks, by using the menu on the left or clicking on the arrow on the right.
