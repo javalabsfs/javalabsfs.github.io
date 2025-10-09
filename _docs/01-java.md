@@ -2,6 +2,8 @@
 layout: doc
 title: 1 Java
 order: 1
+previous: /
+next: /git/
 ---
 ## 1.1 What is Java?
 [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) is a general-purpose programming language. It is used to write various kinds of software.

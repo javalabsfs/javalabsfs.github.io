@@ -1,7 +1,9 @@
 ---
 layout: doc
-title: 4 VSCode
+title: 3 VSCode
 order: 3
+previous: /git/
+next: /labTasks/
 ---
 
 ## 4.1 What is VSCode?

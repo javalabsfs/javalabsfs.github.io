@@ -2,6 +2,8 @@
 layout: doc
 title: 2 Git
 order: 2
+previous: /java/
+next: /vscode/
 ---
 
 ## 2.1 What is Git?

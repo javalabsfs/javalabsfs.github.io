@@ -2,6 +2,8 @@
 layout: doc
 title: 5 Lab tasks
 order: 4
+previous: /vscode/
+next: /
 ---
 
 Now that you have completed the setup, it is time to put it to the test.
