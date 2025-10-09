@@ -85,7 +85,7 @@ install Git from <a href="https://gitforwindows.org/">here</a>, open it, and fol
 <br>
 <img src="img/install_homebrew_macos.png" alt="Homebrew installation process on MacOS" width="60%" height="auto">
 <br>
-<small>image taken from https://www.geeksforgeeks.org/installation-guide/homebrew-installation-on-macos/, 08/10/2025</small>
+<small>(image taken from https://www.geeksforgeeks.org/installation-guide/homebrew-installation-on-macos/, 08/10/2025)</small>
 
 </details>
 
