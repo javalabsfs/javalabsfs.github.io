@@ -26,7 +26,7 @@ First, check if Java is already installed on your computer. Click on the name of
 
 <img src="img/check_java_installed_win.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">
 <br>
-<small>image taken from https://www.wikihow.com/Check-Your-Java-Version-in-the-Windows-Command-Line, 08/10/2025</small>
+<small>(image taken from https://www.wikihow.com/Check-Your-Java-Version-in-the-Windows-Command-Line, 08/10/2025)</small>
 
 </details>
 
@@ -41,7 +41,7 @@ First, check if Java is already installed on your computer. Click on the name of
 
 <img src="img/check_java_installed_macos.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">
 <br>
-<small>image taken from https://www.wikihow.com/Check-Java-Version-on-a-Mac, 08/10/2025</small>
+<small>(image taken from https://www.wikihow.com/Check-Java-Version-on-a-Mac, 08/10/2025)</small>
 
 </details>
 
@@ -50,7 +50,7 @@ First, check if Java is already installed on your computer. Click on the name of
 <details>
 <summary>► Linux</summary>
 
-you know what you're doing :D
+you know what you're doing :D but in case you don't:
 <br>
 <ol>
 <li>open the application <b>terminal</b></li>
@@ -97,7 +97,7 @@ Check if the <code>JAVA_HOME</code> variable is set. It allows other software to
 <li>to test if the variable has been set correctly, go back to the command prompt and type or paste <code>echo %JAVA_HOME%</code> and press enter; check the output</li>
 </ol>
 <br>
-<small>images taken from https://mkyong.com/java/how-to-set-java_home-on-windows-10/, 08/10/2025</small>
+<small>(images taken from https://mkyong.com/java/how-to-set-java_home-on-windows-10/, 08/10/2025)</small>
 
 </details>
 
