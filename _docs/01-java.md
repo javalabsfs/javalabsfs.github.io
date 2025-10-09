@@ -7,7 +7,7 @@ order: 1
 [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) is a general-purpose programming language. It is used to write various kinds of software.
 
 ## 1.2 Command line
-We will be using the **command line**/**terminal**/**console**, to install Java and everything else we need. It is a text-based interface used to interact with computers by entering commands. Since you will have to know how to use the command line for future courses, it is recommended to start using and learning about it now.
+We will be using the **command line**/**terminal**/**console** to install Java and everything else we need. It is a text-based interface used to interact with computers by entering commands. Since you will have to know how to use the command line for future courses, it is recommended to start using and learning about it now.
 
 ## 1.3 How to install Java
 First, check if Java is already installed on your computer. Click on the name of your operating system below and follow the steps shown:

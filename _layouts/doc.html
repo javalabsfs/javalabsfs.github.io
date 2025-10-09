@@ -2,23 +2,39 @@
 <html lang="en">
 
 <head>
-
     {%- include head.html -%}
 
-    {% if page.previous %}
-    <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
-    {% else %}
-    <link rel="prev" href="{{site.baseurl}}/" />
+    {% assign sorted_docs = site.docs | sort: 'order' %}
+    {% assign current_index = nil %}
+
+    {% for doc in sorted_docs %}
+        {% assign doc_url = doc.url | append: "/" %}
+        {% assign page_url = page.url | append: "/" %}
+        {% if doc_url == page_url %}
+            {% assign current_index = forloop.index0 %}
+        {% endif %}
+    {% endfor %}
+
+    {% if current_index != nil %}
+        {% assign prev_index = current_index | minus: 1 %}
+        {% assign next_index = current_index | plus: 1 %}
+        {% assign prev = sorted_docs[prev_index] %}
+        {% assign next = sorted_docs[next_index] %}
     {% endif %}
 
-    {% if page.next %}
-    <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
+    {% if prev %}
+    <link rel="prev" href="{{ prev.url | relative_url }}" />
+    {% else %}
+    <link rel="prev" href="{{ site.baseurl }}/" />
+    {% endif %}
+
+    {% if next %}
+    <link rel="next" href="{{ next.url | relative_url }}" />
     {% endif %}
 </head>
 
 <body>
     <div class="book">
-
         {%- include toc-date.html -%}
 
         <div class="book-body">
@@ -36,15 +52,6 @@
 
             <div class="body-inner">
                 {%- include body.html -%}
-
-                {% assign sorted_docs = site.docs | sort: 'order' %}
-                {% for doc in sorted_docs %}
-                {% if doc.url == page.url %}
-                {% assign index = forloop.index0 %}
-                {% assign prev = sorted_docs[index | minus: 1] %}
-                {% assign next = sorted_docs[index | plus: 1] %}
-                {% endif %}
-                {% endfor %}
 
                 {% if prev %}
                 <a href="{{ prev.url | relative_url }}" class="navigation navigation-prev navigation-unique"
@@ -69,9 +76,10 @@
         </div>
 
         <script>
+            // Metadata for docs pages — safe placeholder for GitBook
             var gitbook = gitbook || [];
             gitbook.push(function () {
-                gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
+                gitbook.page.hasChanged({});
             });
         </script>
     </div>
