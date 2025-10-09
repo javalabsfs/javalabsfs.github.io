@@ -4,33 +4,14 @@
 <head>
     {%- include head.html -%}
 
-    {% assign sorted_docs = site.docs | sort: 'order' %}
-    {% assign prev = nil %}
-    {% assign next = nil %}
-
-    {% assign page_url = page.url | relative_url | append: "/" %}
-
-    {% for doc in sorted_docs %}
-        {% assign doc_url = doc.url | relative_url | append: "/" %}
-        {% if doc_url == page_url %}
-            {% assign index = forloop.index0 %}
-            {% if index > 0 %}
-                {% assign prev = sorted_docs[index | minus: 1] %}
-            {% endif %}
-            {% if index < sorted_docs.size | minus: 1 %}
-                {% assign next = sorted_docs[index | plus: 1] %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-
-    {% if prev %}
-        <link rel="prev" href="{{ prev.url | relative_url }}" />
+    {% if page.previous %}
+    <link rel="prev" href="{{ page.previous | relative_url }}" />
     {% else %}
-        <link rel="prev" href="{{ site.baseurl }}/" />
+    <link rel="prev" href="{{ site.baseurl }}/" />
     {% endif %}
 
-    {% if next %}
-        <link rel="next" href="{{ next.url | relative_url }}" />
+    {% if page.next %}
+    <link rel="next" href="{{ page.next | relative_url }}" />
     {% endif %}
 </head>
 
@@ -53,9 +34,9 @@
             <div class="body-inner">
                 {%- include body.html -%}
 
-                {% if prev %}
-                <a href="{{ prev.url | relative_url }}" class="navigation navigation-prev navigation-unique"
-                    aria-label="Previous page: {{ prev.title }}">
+                {% if page.previous %}
+                <a href="{{ page.previous | relative_url }}" class="navigation navigation-prev navigation-unique"
+                    aria-label="Previous page: {{ page.title }}">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 {% else %}
@@ -65,9 +46,9 @@
                 </a>
                 {% endif %}
 
-                {% if next %}
-                <a href="{{ next.url | relative_url }}" class="navigation navigation-next navigation-unique"
-                    aria-label="Next page: {{ next.title }}">
+                {% if page.next %}
+                <a href="{{ page.next | relative_url }}" class="navigation navigation-next navigation-unique"
+                    aria-label="Next page: {{ page.title }}">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 {% endif %}
@@ -75,7 +56,7 @@
         </div>
 
         <script>
-            // GitBook JS placeholder for _docs pages
+            // GitBook JS placeholder
             var gitbook = gitbook || [];
             gitbook.push(function () {
                 gitbook.page.hasChanged({});
@@ -84,6 +65,7 @@
     </div>
 
     {%- include footer.html -%}
+
 </body>
 
 </html>
