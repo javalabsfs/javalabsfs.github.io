@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 5 Lab tasks
+title: 4 Lab tasks
 order: 4
 previous: /vscode/
 next: /
