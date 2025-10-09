@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: 1 Java
 order: 1
 ---

@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: 5 Lab tasks
 order: 4
 ---

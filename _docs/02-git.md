@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: 2 Git
 order: 2
 ---

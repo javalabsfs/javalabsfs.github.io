@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: 4 VSCode
 order: 3
 ---
