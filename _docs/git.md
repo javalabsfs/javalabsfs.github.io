@@ -1,7 +1,6 @@
 ---
-layout: page
 title: 2 Git
-permalink: /git
+order: 2
 ---
 
 ## 2.1 What is Git?

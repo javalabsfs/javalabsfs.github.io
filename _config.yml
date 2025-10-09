@@ -27,7 +27,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
 remote_theme: sighingnow/jekyll-gitbook
+
+collections:
+  docs:
+    output: true
+    sort_by: order
+    permalink: /:name
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

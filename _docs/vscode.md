@@ -1,7 +1,6 @@
 ---
-layout: page
 title: 4 VSCode
-permalink: /vscode
+order: 3
 ---
 
 ## 4.1 What is VSCode?

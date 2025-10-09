@@ -1,7 +1,6 @@
 ---
-layout: page
 title: 5 Lab tasks
-permalink: /labTasks
+order: 4
 ---
 
 Now that you have completed the setup, it is time to put it to the test.

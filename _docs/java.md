@@ -1,7 +1,6 @@
 ---
-layout: page
 title: 1 Java
-permalink: /java
+order: 1
 ---
 ## 1.1 What is Java?
 [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) is a general-purpose programming language. It is used to write various kinds of software.
