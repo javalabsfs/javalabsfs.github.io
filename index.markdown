@@ -22,10 +22,10 @@ Completing this lab is mandatory.
 
 ---
 
-<small>This tutorial was provided for previous classes by Eric DeMattos.</small>
+<small>(This tutorial was provided for previous classes by Eric DeMattos.</small>
 
 <small>It was modified by Miriam Segiet and Klara Lennermann.</small>
 
 <small>It was modified in October 2024 by Aida Rostami and MH.</small>
 
-<small>This webbook was created in October 2025 by MH with the help of Guy Rosenberg.</small>
+<small>This webbook was created in October 2025 by MH with the help of Guy Rosenberg.)</small>
