@@ -4,3 +4,28 @@
 
 layout: home
 ---
+
+*Deadline: Sat, 17/10/2024, 12:00 PM CET*
+
+This is a guide to setting up your computer for the course 'Data Structures and Algorithms I'.
+
+What you will need to do:
+
+1. [install Java](java.md)
+2. [install Git & set up GitHub](git.md)
+3. [install VSCode](vscode.md)
+4. [do lab tasks](labTasks.md) (**deadline: 17/10/2024, 12:00 PM CET**)
+
+Start by clicking the first step or the arrow on the right.
+
+Completing this lab is mandatory.
+
+---
+
+<small>This tutorial was provided for previous classes by Eric DeMattos.</small>
+
+<small>It was modified by Miriam Segiet and Klara Lennermann.</small>
+
+<small>It was modified in October 2024 by Aida Rostami and MH.</small>
+
+<small>Webbook version by MH with the help of Guy Rosenberg.</small>
