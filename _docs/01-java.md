@@ -58,7 +58,7 @@ you know what you're doing :D but in case you don't:
 ---
 
 **Inspect the output**: if it looks anything like
-```shell
+```console
 openjdk version "24.0.1" 2025-04-15
 OpenJDK Runtime Environment (build 24.0.1+9-30)
 OpenJDK 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
@@ -97,7 +97,11 @@ Check if the <code>JAVA_HOME</code> variable is set. It allows other software to
 
 ---
 
-Double-check if Java was installed successfully by running `java -version` as described above.
+Double-check if Java was installed successfully by running
+```console
+java -version
+```
+as described above.
 
 ---
 

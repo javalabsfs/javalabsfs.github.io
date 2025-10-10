@@ -100,7 +100,11 @@ use your package manager's installation command, e.g. <code>sudo apt install git
 
 Also refer to the instructions [here](https://git-scm.com/downloads).
 
-Double-check if Git was installed successfully by running `git --version` as described above. On Windows, you might want to use the application **Git BASH** that came with your Git installation (instead of Command Prompt).
+Double-check if Git was installed successfully by running
+```console
+git --version
+```
+as described above. On Windows, you might want to use the application **Git BASH** that came with your Git installation (instead of Command Prompt).
 
 ---
 
