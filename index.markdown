@@ -7,7 +7,7 @@ layout: home
 
 *Deadline: Sat, 17/10/2025, 12:00 PM CET*
 
-This is lab 0, a guide to setting up your computer for the course 'Data Structures and Algorithms I' with some introductory tasks[^1].
+This is lab 0, a guide to setting up your computer for the course 'Data Structures and Algorithms I' with some introductory tasks.
 
 What you will need to do:
 
@@ -22,7 +22,7 @@ Start by clicking the arrow on the right.
 
 ---
 
-[^1]: This tutorial was provided for previous classes by Eric DeMattos.
+This tutorial was provided for previous classes by Eric DeMattos.
 
 It was modified by Miriam Segiet and Klara Lennermann.
 
