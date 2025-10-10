@@ -21,14 +21,12 @@ First, check if Java is already installed on your computer. Click on the name of
 
 <ol>
 <li>open the application <b>Command Prompt</b></li>
-<li>type or paste <pre><code>java -version</code></pre> and press enter</li>
+<li>type or paste the command below and press enter <pre><code>java -version</code></pre></li>
 </ol>
 
 <img src="img/check_java_installed_win.jpg" alt="check if Java is installed on Windows" width="60%" height="auto">
 
 </details>
-
-[^1]
 
 ---
 
@@ -36,12 +34,10 @@ First, check if Java is already installed on your computer. Click on the name of
 <summary>► MacOS</summary>
 <ol>
 <li>open the application <b>Terminal</b></li>
-<li>type or paste <code>java -version</code> and press enter</li>
+<li>type or paste the command below and press enter <pre><code>java -version</code></pre></li>
 </ol>
 
 <img src="img/check_java_installed_macos.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">
-
-[^2]
 
 </details>
 
@@ -54,7 +50,7 @@ you know what you're doing :D but in case you don't:
 <br>
 <ol>
 <li>open the application <b>terminal</b></li>
-<li>type or paste <code>java -version</code> and press enter</li>
+<li>type or paste the command below and press enter <pre><code>java -version</code></pre></li>
 </ol>
 
 </details>
@@ -86,8 +82,6 @@ Check if the <code>JAVA_HOME</code> variable is set. It allows other software to
 <li>click on 'environment variables'</li>
 <br>
 <img src="img/set_java_home_win.png" alt="set JAVA_HOME on Windows" width="60%" height="auto">
-
-[^3]
 <br>
 <li>if <code>JAVA_HOME</code> exists under 'system variables' and has a value similar to <code>C:\Program Files\Java\jdk-21</code>, it is already set. Go to the next step, installing Git, by using the menu on the left or scrolling up and clicking on the arrow on the right. Else:</li>
 <li>click on the 'new' button under the 'system variables' section</li>
@@ -96,9 +90,8 @@ Check if the <code>JAVA_HOME</code> variable is set. It allows other software to
 <br>
 <img src="img/set_java_home_win1.png" alt="set JAVA_HOME on Windows cont." width="60%" height="auto">
 
-[^3]
 <br>
-<li>to test if the variable has been set correctly, go back to the command prompt and type or paste <code>echo %JAVA_HOME%</code> and press enter; check the output</li>
+<li>to test if the variable has been set correctly, go back to the command prompt and type or paste the command below and press enter; check the output <pre><code>echo %JAVA_HOME%</code></pre></li>
 </ol>
 
 </details>
@@ -117,6 +110,8 @@ Done. Move on to the next step, installing Git & setting up GitHub, by using the
 
 ---
 
-[^1]: image taken from https://www.wikihow.com/Check-Your-Java-Version-in-the-Windows-Command-Line, 08/10/2025
-[^2]: image taken from https://www.wikihow.com/Check-Java-Version-on-a-Mac, 08/10/2025
-[^3]: images taken from https://mkyong.com/java/how-to-set-java_home-on-windows-10/, 08/10/2025
+1st image taken from https://www.wikihow.com/Check-Your-Java-Version-in-the-Windows-Command-Line, 08/10/2025
+
+2nd image taken from https://www.wikihow.com/Check-Java-Version-on-a-Mac, 08/10/2025
+
+last images taken from https://mkyong.com/java/how-to-set-java_home-on-windows-10/, 08/10/2025

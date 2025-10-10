@@ -24,7 +24,7 @@ First, check if Git is already installed on your computer. Click on the name of 
 
 <ol>
 <li>open the application <b>Command Prompt</b></li>
-<li>type or paste <code>git --version</code> and press enter</li>
+<li>type or paste the command below and press enter <pre><code>git --version</code></pre></li>
 </ol>
 
 </details>
@@ -36,7 +36,7 @@ First, check if Git is already installed on your computer. Click on the name of 
 
 <ol>
 <li>open the application <b>Terminal</b></li>
-<li>type or paste <code>git --version</code> and press enter</li>
+<li>type or paste the command below and press enter <pre><code>git --version</code></pre></li>
 </ol>
 
 </details>
@@ -48,7 +48,7 @@ First, check if Git is already installed on your computer. Click on the name of 
 
 <ol>
 <li>open the application <b>terminal</b></li>
-<li>type or paste <code>git --version</code> and press enter</li>
+<li>type or paste the command below and press enter <pre><code>git --version</code></pre></li>
 </ol>
 
 </details>
@@ -79,8 +79,8 @@ install Git from <a href="https://gitforwindows.org/">here</a>, open it, and fol
 
 <ol>
 <li>open the application <b>Terminal</b></li>
-<li>type or paste <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code> and press enter. This will install <a href="https://brew.sh/">Homebrew</a>, a package manager</li>
-<li>type or paste <code>brew install git</code> and press enter</li>
+<li>type or paste the command below and press enter; it will install <a href="https://brew.sh/">Homebrew</a>, a package manager <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre></li>
+<li>type or paste the command below and press enter <code>brew install git</code></li>
 </ol>
 <br>
 <img src="img/install_homebrew_macos.png" alt="Homebrew installation process on MacOS" width="60%" height="auto">[^2]
@@ -92,7 +92,7 @@ install Git from <a href="https://gitforwindows.org/">here</a>, open it, and fol
 <details>
 <summary>► Linux</summary>
 
-use your package manager's installation command, e.g. <code>sudo apt install git</code>
+use your package manager's installation command, e.g. <pre><code>sudo apt install git</code></pre>
 
 </details>
 
@@ -127,7 +127,7 @@ Go to [GitHub](https://github.com/) and create an account.
 ### 3.4.2 Set account identity
 Before you can upload or push changes to any remote repositories (i.e. the repositories stored on GitHub), you must first configure your name and email with Git on your computer.
 
-Do this by opening the command line/terminal/console and entering (copying and pasting) the commands below, replacing "FirstName LastName" with your first and last name and "your@email.address" with the email address you used to sign up for GitHub. You only need to do this once.
+Do this by opening the command line/terminal/console and entering (copying and pasting) the commands below, replacing 'FirstName LastName' with your first and last name and 'your@email.address' with the email address you used to sign up for GitHub. Use double quotation marks as shown below.. You only need to do this once.
 
 ```console
 git config --global user.name "FirstName LastName" 
@@ -139,7 +139,7 @@ Generally, the SSH (secure shell) protocol is used to connect and authenticate t
 
 To set up an SSH key, follow the instructions below.
 
-1. Generate the key by entering the command below in the terminal, replacing "your@email.address" with the email address associated with your GitHub account.
+1. Generate the key by entering the command below in the terminal, replacing 'your@email.address' with the email address associated with your GitHub account.
 
 ```console
 ssh-keygen -t rsa -b 4096 -C "your@email.address"
@@ -149,7 +149,7 @@ You will be prompted to enter the path to the file in which you want to save the
 
 After you confirm your password, you will be shown the following message:
 
-"Your identification has been saved in **/aPath/.ssh/id_rsa**."
+'Your identification has been saved in **/aPath/.ssh/id_rsa**.'
 
 Copy this path, as you’ll need it later.
 
@@ -176,13 +176,13 @@ cat /aPath/.ssh/id_rsa.pub
 
 Copy the entire output — this is your public key.
 
-5. Open GitHub, click on your profile picture, then Settings. In the navigation menu (left side), go to "SSH and GPG keys". Click on the green button in the top right corner labelled "New SSH key". Give the key a title (can be anything) and paste the key you just copied into the key field. Then click on the button labelled "Add SSH key".
+5. Open GitHub, click on your profile picture, then Settings. In the navigation menu (left side), go to 'SSH and GPG keys'. Click on the green button in the top right corner labelled 'New SSH key'. Give the key a title (can be anything) and paste the key you just copied into the key field. Then click on the button labelled 'Add SSH key'.
 
 ---
 
 ## Basic Git commands
 ### git clone
-Create a copy of a remote repository on your computer by using the command below, replacing "yourRepoLink" with the link to the repository you want to clone. Clone this very repository. Obtain its link by clicking on the green button labelled "Code" in the upper right corner, clicking on 'SSH' and copying the link shown. To save the copy in a specific location on your computer, read on.
+Create a copy of a remote repository on your computer by using the command below, replacing 'yourRepoLink' with the link to the repository you want to clone. Clone this very repository. Obtain its link by clicking on the green button labelled 'Code' in the upper right corner, clicking on 'SSH' and copying the link shown. To save the copy in a specific location on your computer, read on.
 
 ```console
 git clone yourRepoLink
@@ -197,7 +197,7 @@ cd Documents/homework
 <!-- After you have cloned this repository, open student.txt in it, and replace the given dummy information with yours, i.e. your full name, GitHub username, and Matrikelnummer. -->
 
 ### git add
-For most assignments, you are provided with starter code to complete and will simply need to clone, commit, and push. But sometimes, you will need to create a new file. You must explicitly tell Git about new files that it is to track. Do this by using the command below, replacing "yourFileName.file" with the name of your file.
+For most assignments, you are provided with starter code to complete and will simply need to clone, commit, and push. But sometimes, you will need to create a new file. You must explicitly tell Git about new files that it is to track. Do this by using the command below, replacing 'yourFileName.file' with the name of your file.
 
 ```console
 git add yourFileName.file
@@ -206,7 +206,7 @@ git add yourFileName.file
 <!-- Please open VSCode and create an (extremely simple!) Java file that simply has one main method which prints "Hello world!" to System.out. You can write the code for this yourself, or copy it from the Moodle course or the internet. Make sure you save the file in the same folder since that is the only one being tracked by Git. When you're ready, add the file to Git, commit your changes, and push it to GitHub. -->
 
 ### git commit
-You must 'save' any changes you made to your local repository by committing them, i.e. informing Git about the changes and that they are ready to be sent to the remote repository. Additionally, provide a commit message, i.e. concise and meaningful description of the changes you made, marked by `-m` and the description in quotation marks. Use the command below, replacing "yourFileName.file" and "update personal information" with your corresponding file name and commit message.
+You must 'save' any changes you made to your local repository by committing them, i.e. informing Git about the changes and that they are ready to be sent to the remote repository. Additionally, provide a commit message, i.e. concise and meaningful description of the changes you made, marked by `-m` and the description in quotation marks. Use the command below, replacing 'yourFileName.file' and 'update personal information' with your corresponding file name and commit message. Use double quotation marks as shown below.
 
 ```console
 git commit yourFileName.file -m "update personal information"

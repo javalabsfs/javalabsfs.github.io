@@ -30,7 +30,7 @@ We will post the labs on GitHub which you can access via invitation links that w
 Open `student.txt` and and replace the dummy information with yours, i.e. your full name, GitHub username, and matriculation number.
 
 ## Task 2
-Create an (extremely simple!) Java file called `HelloWorld.java` that simply has one main method which prints `"Hello world!"` to `System.out`. You can write the code for this yourself, or copy it from the Moodle course or the internet. Make sure you save the file in the lab 0 folder since that is the only one being tracked by Git.
+Create an (extremely simple!) Java file called `HelloWorld.java` that simply has one main method which prints "`Hello world!`" to `System.out`. You can write the code for this yourself, or copy it from the Moodle course or the internet. Make sure you save the file in the lab 0 folder since that is the only one being tracked by Git.
 
 ---
 
