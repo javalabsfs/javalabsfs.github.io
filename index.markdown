@@ -18,7 +18,7 @@ What you will need to do:
 
 Completing this lab is mandatory.
 
-Start with installing Java by clicking the arrow on the right or using the menu on the left.
+Start with the first step, installing Java, by clicking the arrow on the right or using the menu on the left.
 
 ---
 
