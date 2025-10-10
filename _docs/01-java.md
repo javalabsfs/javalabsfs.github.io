@@ -106,7 +106,7 @@ as described above.
 
 ---
 
-Done. Move on to the next step, installing Git & setting up GitHub, by using the menu on the left or scrolling up and clicking on the arrow on the right.
+Done. Move on to the next step, installing Git & setting up GitHub, by using the menu on the left or returning to the top of this page and clicking on the arrow on the right.
 
 ---
 

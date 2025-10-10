@@ -227,7 +227,7 @@ If you would like to dive deeper into Git and GitHub, we highly encourage you to
 
 ---
 
-Done. Move on to the next step, installing VSCode, by using the menu on the left or scrolling up and clicking on the arrow on the right.
+Done. Move on to the next step, installing VSCode, by using the menu on the left or returning to the top of this page and clicking on the arrow on the right.
 
 ---
 
