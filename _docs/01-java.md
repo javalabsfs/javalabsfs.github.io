@@ -24,11 +24,11 @@ First, check if Java is already installed on your computer. Click on the name of
 <li>type or paste <pre><code>java -version</code></pre> and press enter</li>
 </ol>
 
-<img src="img/check_java_installed_win.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">
-
-[^1]
+<img src="img/check_java_installed_win.jpg" alt="check if Java is installed on Windows" width="60%" height="auto">
 
 </details>
+
+[^1]
 
 ---
 
