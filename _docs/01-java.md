@@ -21,10 +21,12 @@ First, check if Java is already installed on your computer. Click on the name of
 
 <ol>
 <li>open the application <b>Command Prompt</b></li>
-<li>type or paste <code>java -version</code> and press enter</li>
+<li>type or paste <pre><code>java -version</code></pre> and press enter</li>
 </ol>
 
-<img src="img/check_java_installed_win.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">[^1]
+<img src="img/check_java_installed_win.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">
+
+[^1]
 
 </details>
 
@@ -37,7 +39,9 @@ First, check if Java is already installed on your computer. Click on the name of
 <li>type or paste <code>java -version</code> and press enter</li>
 </ol>
 
-<img src="img/check_java_installed_macos.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">[^2]
+<img src="img/check_java_installed_macos.jpg" alt="check if Java is installed on MacOS" width="60%" height="auto">
+
+[^2]
 
 </details>
 
@@ -81,14 +85,18 @@ Check if the <code>JAVA_HOME</code> variable is set. It allows other software to
 <li>go to the 'advanced' tab</li>
 <li>click on 'environment variables'</li>
 <br>
-<img src="img/set_java_home_win.png" alt="set JAVA_HOME on Windows" width="60%" height="auto">[^3]
+<img src="img/set_java_home_win.png" alt="set JAVA_HOME on Windows" width="60%" height="auto">
+
+[^3]
 <br>
 <li>if <code>JAVA_HOME</code> exists under 'system variables' and has a value similar to <code>C:\Program Files\Java\jdk-21</code>, it is already set. Go to the next step, installing Git, by using the menu on the left or scrolling up and clicking on the arrow on the right. Else:</li>
 <li>click on the 'new' button under the 'system variables' section</li>
 <li>set name to <code>JAVA_HOME</code></li>
 <li>set value to the location of your Java installation, which should look something like <code>C:\Program Files\Java\jdk-21</code>. If you do not know the location, find it using File Explorer</li>
 <br>
-<img src="img/set_java_home_win1.png" alt="set JAVA_HOME on Windows cont." width="60%" height="auto">[^3]
+<img src="img/set_java_home_win1.png" alt="set JAVA_HOME on Windows cont." width="60%" height="auto">
+
+[^3]
 <br>
 <li>to test if the variable has been set correctly, go back to the command prompt and type or paste <code>echo %JAVA_HOME%</code> and press enter; check the output</li>
 </ol>
