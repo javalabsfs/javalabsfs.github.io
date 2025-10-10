@@ -56,9 +56,16 @@ require(["gitbook", "jquery"], function (gitbook, $) {
             $(this).css("position", "relative");
 
             var $copyCodeButton = $("<button class='copy-code-button'>Copy</button>");
-            $copyCodeButton.css({ "position": "absolute", "top": "5px", "right": "5px", "padding": "3px", "background-color": "#ABABAB", "color": "white", "border-radius": "5px", "-moz-border-radius": "5px", "-webkit-border-radius": "5px", "border": "2px solid #CCCCCC" });
-            $copyCodeButton[0].style.setProperty("background-color", "#ABABAB", "important");
-            $copyCodeButton[0].style.setProperty("color", "white", "important");
+            // $copyCodeButton.css({ "position": "absolute", "top": "5px", "right": "5px", "padding": "3px", "background-color": "#ABABAB", "color": "white", "border-radius": "5px", "-moz-border-radius": "5px", "-webkit-border-radius": "5px", "border": "2px solid #CCCCCC" });
+            const btn = $copyCodeButton[0];
+                btn.style.setProperty("position", "absolute");
+                btn.style.setProperty("top", "5px");
+                btn.style.setProperty("right", "5px");
+                btn.style.setProperty("padding", "3px");
+                btn.style.setProperty("background-color", "#ABABAB", "important");
+                btn.style.setProperty("color", "white", "important");
+                btn.style.setProperty("border-radius", "5px");
+                btn.style.setProperty("border", "2px solid #CCCCCC");
 
             $copyCodeButton.click(function () {
                 var $codeContainer = $(this).siblings("code");
