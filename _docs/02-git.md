@@ -83,9 +83,7 @@ install Git from <a href="https://gitforwindows.org/">here</a>, open it, and fol
 <li>type or paste <code>brew install git</code> and press enter</li>
 </ol>
 <br>
-<img src="img/install_homebrew_macos.png" alt="Homebrew installation process on MacOS" width="60%" height="auto">
-<br>
-<small>(image taken from https://www.geeksforgeeks.org/installation-guide/homebrew-installation-on-macos/, 08/10/2025)</small>
+<img src="img/install_homebrew_macos.png" alt="Homebrew installation process on MacOS" width="60%" height="auto">[^2]
 
 </details>
 
@@ -109,7 +107,7 @@ Double-check if Git was installed successfully by running `git --version` as des
 # 3 GitHub
 
 ## 3.1 What is GitHub?
-GitHub is a platform that allows you to create, store, manage and share code in the form of repositories. It uses Git[^2].
+GitHub is a platform that allows you to create, store, manage and share code in the form of repositories. It uses Git[^3].
 
 ## 3.2 What is a lab?
 A lab is a programming assignment. You will receive a lab every Thursday, 2PM which you must complete until Friday, 2PM. Exceptions may occur due to e.g. national holidays.
@@ -133,7 +131,7 @@ git config --global user.email "your@email.address"
 ```
 
 ## 3.4.3 Set up an SSH key
-Generally, the SSH (secure shell) protocol is used to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit. This facilitates accessing and writing data in repositories on GitHub[^3].
+Generally, the SSH (secure shell) protocol is used to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit. This facilitates accessing and writing data in repositories on GitHub[^4].
 
 To set up an SSH key, follow the instructions below.
 
@@ -221,7 +219,7 @@ git push
 
 ---
 
-If you would like to dive deeper into Git and GitHub, we highly encourage you to explore on your own. Google is a great resource for learning more about these tools. For a solid introduction, [here](https://www.w3schools.com/git/default.asp?remote=github) is a helpful link to get you started.
+If you would like to dive deeper into Git and GitHub, we highly encourage you to explore on your own. Google is a great resource for learning more about these tools. For a solid introduction, [this](https://www.w3schools.com/git/default.asp?remote=github) is a helpful link to get you started. Check out the links in the footnotes too.
 
 ---
 
@@ -231,6 +229,8 @@ Done. Move on to the next step, installing VSCode, by using the menu on the left
 
 [^1]: https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/, modified; 17/10/24
 
-[^2]: https://en.wikipedia.org/wiki/GitHub, modified; 17/10/24
+[^2]: image taken from https://www.geeksforgeeks.org/installation-guide/homebrew-installation-on-macos/, 08/10/2025
 
-[^3]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh, modified; 17/10/24
+[^3]: https://en.wikipedia.org/wiki/GitHub, modified; 17/10/24
+
+[^4]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh, modified; 17/10/24
