@@ -28,11 +28,6 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-gitbook:
-  plugins:
-    - copy-code-button
-    - back-to-top-button
-
 remote_theme: sighingnow/jekyll-gitbook
 
 collections:
