@@ -12,7 +12,7 @@ Git is a version control system for tracking changes in computer files and coord
 ## 2.2 What is version control?
 Version control is a system that records changes to a file or set of files over time. It allows you to revert files back to a previous state, revert the entire project back to a previous state, review changes made over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more[^1].
 
-Also refer to the [Git presentation](files/git.pdf) from DSA1, WS2024.
+Also refer to the [Git presentation](https://github.com/javalabsfs/javalabsfs.github.io/blob/main/files/git.pdf) from DSA1, WS2024.
 
 ## 2.3 How to install Git
 First, check if Git is already installed on your computer. Click on the name of your operating system below and follow the steps shown:
