@@ -58,11 +58,11 @@ you know what you're doing :D but in case you don't:
 ---
 
 **Inspect the output**: if it looks anything like
-<pre><code>
+```
 openjdk version "24.0.1" 2025-04-15
 OpenJDK Runtime Environment (build 24.0.1+9-30)
 OpenJDK 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
-<\pre><\code>
+```
 , Java is already installed on your computer. Skip the instructions below and move on to the next step, installing Git & setting up GitHub, by using the menu on the left or scrolling up and clicking on the arrow on the right.
 
 
