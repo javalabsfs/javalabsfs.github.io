@@ -5,7 +5,7 @@
 layout: home
 ---
 
-*Deadline: Fri, 17/10/2025, 12:00 PM CET*
+*Deadline: Sat, 18/10/2025, 02:00 PM CET*
 
 This is lab 0, a guide to setting up your computer for the course 'Data Structures and Algorithms I' with some introductory tasks.
 
@@ -13,8 +13,8 @@ What you will need to do:
 
 1. install Java
 2. install Git & set up GitHub
-3. install VSCode (optional)
-4. do lab tasks (**deadline: Fri, 17/10/2025, 12:00 PM CET**)
+3. install VSCode
+4. do lab tasks (**deadline: Sat, 18/10/2025, 02:00 PM CET**)
 
 Completing this lab is mandatory.
 
