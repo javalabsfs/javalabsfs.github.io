@@ -124,6 +124,8 @@ We will post the labs on GitHub which you can access via invitation links that w
 ### 3.4.1 Create GitHub account
 Go to [GitHub](https://github.com/) and create an account.
 
+Please send your GitHub username, your real name, and your matriculation number to the email address `javalab [at] sfs.uni-tuebingen [dot ]de`.
+
 ### 3.4.2 Set account identity
 Before you can upload or push changes to any remote repositories (i.e. the repositories stored on GitHub), you must first configure your name and email with Git on your computer.
 
