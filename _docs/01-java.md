@@ -104,11 +104,9 @@ java -version
 ```
 as described above.
 
-{% comment %}
 ---
 
 Done. Move on to the next step, installing Git & setting up GitHub, by using the menu on the left or returning to the top of this page and clicking on the arrow on the right.
-{% endcomment %}
 
 ---
 
