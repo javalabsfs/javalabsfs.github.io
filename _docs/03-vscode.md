@@ -20,10 +20,6 @@ Install it from [here](https://code.visualstudio.com/), open it, and follow the 
 ## 4.4 Set up VSCode for Java
 Add Java support to VSCode by installing the Java extensions from [here](vscode:extension/vscjava.vscode-java-pack).
 
-{% comment %}
-
 ---
 
 Done. Move on to the final step, doing the lab tasks, by using the menu on the left or clicking on the arrow on the right.
-
-{% endcomment %}
