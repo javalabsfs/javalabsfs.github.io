@@ -22,7 +22,7 @@ We will post the labs on GitHub which you can access via invitation links that w
 
 ## The actual lab
 
-1. get your lab 0 by clicking [here](https://classroom.github.com/a/Y9jV205o)
+1. get your lab 0 from GitHub
 2. clone it to your computer using `git clone`
 3. open it (the folder) in VSCode
 
